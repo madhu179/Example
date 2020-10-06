@@ -16,6 +16,11 @@ public class ExampleMain {
 	    else
 	    	t = toss.Tails;
 	    System.out.println("Toss Outcome is "+t);
+	    
+	    if(t==toss.Heads)
+	    	System.out.print("You Won the toss");
+	    else
+	    	System.out.println("You lost the toss");
 
 	}
 
